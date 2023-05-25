@@ -84,7 +84,7 @@ section {
 }
 
 .home{
-    background: url('img_2.PNG') no-repeat;
+    background: url('img_1.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
