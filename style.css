@@ -85,6 +85,7 @@ section {
 
 .home{
     background: url('img_1.PNG') no-repeat;
+    z-index: 10;
     background-size: cover;
     background-position: center;
     display: flex;
