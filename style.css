@@ -84,8 +84,8 @@ section {
 }
 
 .home{
-    background: url('img_1.PNG') no-repeat;
-    z-index: 10;
+    /* background: url('img_1.PNG') no-repeat; */
+    /* z-index: 10; */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -376,6 +376,11 @@ span {
     margin: 0 0 1.5rem 2rem;
 }
 
+.education-column a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .education-column .education-box {
     position: relative;
     border-left: .2rem solid var(--main-color);
@@ -529,35 +534,59 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 90%;
+    width: 100%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 90%;
+    width: 80%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 90%;
+    width: 95%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 90%;
+    width: 95%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
     width: 90%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
     width: 90%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
+    width: 75%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
+    width: 85%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(9) .bar span {
+    width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+    width: 80%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 90%;
+    width: 95%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+    width: 85%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 85%;
 }
 
 .projects {
@@ -572,7 +601,6 @@ span {
 .projects-box a {
     text-decoration: none;
     color: inherit;
-    /* text-decoration-color: var(--text-color); */
 }
 
 .projects .projects-row {
